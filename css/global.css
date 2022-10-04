@@ -7,3 +7,9 @@ html, body{
 *, *::before, *::after{
     box-sizing: inherit;
 }
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
