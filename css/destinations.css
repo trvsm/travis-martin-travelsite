@@ -1,5 +1,11 @@
 .gallery {
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 70vh;
+}
+
+.gallery__card {
+  margin: 1rem;
+  list-style-type: none;
 }
