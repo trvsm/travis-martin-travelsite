@@ -12,4 +12,35 @@ html, body{
     display: flex;
     justify-content: space-between;
     height: 10vh;
+    margin: 0 3rem;
+}
+
+.nav__logo{
+    max-width: 3rem;
+}
+
+.nav__list{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.nav__link{
+    text-decoration: none;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+.hero__splash{
+    width: 30%;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
 }
