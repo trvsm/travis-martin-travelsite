@@ -7,5 +7,8 @@
 
 .gallery__card {
   margin: 1rem;
+  padding: 0;
   list-style-type: none;
+  justify-content: center;
+  border-radius: 5px;
 }

@@ -4,6 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 *,
@@ -16,7 +17,8 @@ body {
   display: flex;
   justify-content: space-between;
   height: 10vh;
-  margin: .5rem 3rem;
+  margin: 0.5rem 3rem;
+  background-color: #fff;
   /* width: 100vw;
   position: fixed;
   top: 0;
@@ -36,12 +38,24 @@ body {
 
 .nav__link {
   text-decoration: none;
+  color: #335576;
 }
 
 .footer {
   display: flex;
   height: 20vh;
   justify-content: center;
+  background-color: #fefaf5;
+}
+
+.footer__title,
+.footer__details {
+  color: #335576;
+}
+
+.footer__type {
+  color: #db7a4e;
+  text-transform: uppercase;
 }
 
 .footer__contact {
@@ -49,7 +63,7 @@ body {
 }
 
 .footer__hours {
-  margin: 1rem;
+  margin: 0 1rem;
 }
 
 .footer__social {
@@ -58,4 +72,11 @@ body {
 
 .footer__schedule {
   column-count: 3;
+}
+
+.footer__icon {
+  margin: 0 1rem;
+  padding: 0;
+  max-width: 2rem;
+  max-height: 2rem;
 }
