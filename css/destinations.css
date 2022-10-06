@@ -1,8 +1,18 @@
 .gallery {
+  height: 70vh;
+}
+
+.gallery__title {
+  color: #fff;
+  font-weight: 900;
+  font-size: 4rem;
+  padding: 2rem 3rem;
+}
+
+.gallery__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
 }
 
 .gallery__card {
@@ -11,4 +21,40 @@
   list-style-type: none;
   justify-content: center;
   border-radius: 5px;
+}
+
+.gallery--greece {
+  background-image: url(../assets/images/greece.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery--hawaii {
+  background-image: url(../assets/images/hawaii.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery--iceland {
+  background-image: url(../assets/images/iceland.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery__card {
+  background-color: #fff;
+  padding: 0.5rem;
+}
+
+.gallery__itinerary {
+  background-color: #fefaf5;
+  margin: 0.5rem;
+  padding: 0.5rem 3rem;
+}
+
+.gallery__itinerary--title {
+  background-color: #fff;
+  border-bottom: 2px solid black;
+  padding-bottom: 0;
+  margin-bottom: 1rem;
 }
