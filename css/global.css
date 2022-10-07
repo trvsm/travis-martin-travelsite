@@ -16,7 +16,8 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  height: 10vh;
+  align-items: center;
+  height: 5vh;
   padding: 0.5rem 3rem;
   background-color: #fff;
   /* width: 100vw;
@@ -34,6 +35,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
+  margin: 0;
+  padding: 0.5rem;
 }
 
 .nav__link {
@@ -41,17 +44,34 @@ body {
   color: #335576;
 }
 
+.nav__link--active{
+  border-bottom: 2px solid #db7a4e;
+  padding-bottom: .5rem;
+}
+
+/* .nav *{margin-top: 0;} */
+
 .footer {
-  display: flex;
+  
   height: 20vh;
-  justify-content: center;
+  
   background-color: #fefaf5;
-  padding: 0.5rem 3rem;
+  /* padding: 1rem 3rem; */
+ 
+  width: 100vw;
+}
+
+.footer__wrapper{
+display: flex;
+justify-content: space-between;
+ max-width: 855px;
+  margin: 0 auto;
 }
 
 .footer__title,
 .footer__details {
   color: #335576;
+  padding-bottom: .5rem;
 }
 
 .footer__type {
@@ -69,10 +89,12 @@ body {
 
 .footer__type {
   margin: 0;
+  font-weight: 400;
+  font-size: .75rem;
 }
 
 .footer__social {
-  margin: 1rem;
+padding: 1rem;
 }
 
 .footer__schedule {
@@ -82,8 +104,9 @@ body {
 }
 
 .footer__icon {
-  margin: 0 1rem;
-  padding: 0;
+  margin: 1rem 1rem 0 0;
   max-width: 2rem;
   max-height: 2rem;
 }
+
+.footer *{margin-bottom: 0;}
