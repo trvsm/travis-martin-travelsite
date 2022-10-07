@@ -1,5 +1,6 @@
 .gallery {
-  height: 75vh;
+  height: 80vh;
+  padding-top: 5vh;
 }
 
 .gallery__title {
