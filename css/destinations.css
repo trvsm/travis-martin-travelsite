@@ -48,6 +48,15 @@
   padding: 0.5rem;
 }
 
+.gallery--started{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 3rem;
+  color: #335576;
+}
+
 .gallery__itinerary {
   background-color: #fefaf5;
   margin: 0.5rem;
