@@ -42,6 +42,12 @@ body {
 .nav__link {
   text-decoration: none;
   color: #335576;
+  /* transition: 0.5s; */
+}
+
+.nav__link:hover{
+  border-bottom: 2px solid #335576;
+  padding-bottom: 0.25rem;
 }
 
 .nav__link--active {
