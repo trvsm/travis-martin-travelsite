@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav class="nav">
-            <a href="./index.html"><img class="nav__logo" src="../assets/images/air-transport.png" alt="Icon created by Freepik -
+            <a href="../index.html"><img class="nav__logo" src="../assets/images/air-transport.png" alt="Icon created by Freepik -
                             Flaticon: https://www.flaticon.com/free-icons/travel"></a>
             <ul class="nav__list">
                 <li><a class="nav__link" href="../index.html">Home</a></li>
@@ -22,13 +22,31 @@
         </nav>
     </header>
     <main>
-        <form class="gallery gallery--started" action="">
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name">
-            <label for="phone">Phone Number:</label>
-            <input type="number" name="phone" id="phone">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
+        <form class="gallery gallery--started" action="submit">
+            <fieldset>
+                <legend>Where do you want to travel?</legend>
+                <div><input type="radio" name="destination" id="greece" value="greece" checked>
+                    <label for="greece">Greece</label>
+                </div>
+
+                <div><input type="radio" name="destination" id="hawaii" value="hawaii">
+                    <label for="hawaii">Hawaii</label>
+                </div>
+
+                <div><input type="radio" name="destination" id="iceland" value="iceland">
+                    <label for="iceland">Iceland</label>
+                </div>
+                <div><label for="name">Name: </label><br>
+                <input type="text" name="name" id="name"></div>
+                <div><label for="tel">Phone:</label><br>
+                <input type="text" name="tel" id="tel" required></div>
+                <div><label for="email">Email: </label><br>
+                <input type="email" name="email" id="email"></div>
+                <div><label for="message">Send us a message:</label><br>
+                    <input type="textarea" name="message" id="message"></div>
+                <input type="submit" name="submit" id="submit" class="form__button">
+                
+            </fieldset>
         </form>
     </main>
 

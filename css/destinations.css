@@ -51,7 +51,7 @@
 .gallery--started{
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 400px;
   margin: 0 auto;
   padding-top: 3rem;
   color: #335576;
@@ -68,4 +68,13 @@
   border-bottom: 2px solid black;
   padding-bottom: 0;
   margin-bottom: 1rem;
+}
+
+.form__button {
+  background-color: #db7a4e;
+  color: #fff;
+  border-style: none;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  margin-top: .5rem;
 }
